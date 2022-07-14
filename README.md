@@ -5,7 +5,7 @@
 - [Tipos de datos](#Tiposdedatos)
 - [Estructura del dataset del proyecto](#Estructuradeldatasetdelproyecto)
 - [Vectores](#Vectores)
-- [Primero calculos](#PrimerosCalculos)
+- [Matrices](#Matrices)
 - [Primero calculos](#PrimerosCalculos)
 - [Primero calculos](#PrimerosCalculos)
 - [Primero calculos](#PrimerosCalculos)
@@ -107,3 +107,12 @@ Observaciones: Filas.
   - sum es una función que como su nombre lo indica,retorna la suma de los valores que le indiquemos.
 - ![Instaladores](src/6.png)
 - [Utilizar vectores profesionalmente](/comousarvectoresenR.pdf)
+## Matrices
+- Una matriz debe tener mismo tipo de datos, por otro lado, un dataframe puede tener diferentes.
+- Para crear una matriz en R utilizaremos la función matrix cuyos argumentos son:
+
+  - la información de los elementos.
+  - nrow: número de filas.
+  - ncol: número de columnas.
+  - byrow: booleano para indicar si llenar la matriz por filas.
+  - colSums es una función que por argumento recibe una matriz y te retorna la suma de los valores de sus columnas.
