@@ -6,7 +6,7 @@
 - [Estructura del dataset del proyecto](#Estructuradeldatasetdelproyecto)
 - [Vectores](#Vectores)
 - [Matrices](#Matrices)
-- [Primero calculos](#PrimerosCalculos)
+- [Ejercicios con matrices](#Ejerciciosconmatrices)
 - [Primero calculos](#PrimerosCalculos)
 - [Primero calculos](#PrimerosCalculos)
 - [Primero calculos](#PrimerosCalculos)
@@ -108,6 +108,7 @@ Observaciones: Filas.
 - ![Instaladores](src/6.png)
 - [Utilizar vectores profesionalmente](/comousarvectoresenR.pdf)
 ## Matrices
+- - ![Instaladores](src/8.png)
 - Una matriz debe tener mismo tipo de datos, por otro lado, un dataframe puede tener diferentes.
 - Para crear una matriz en R utilizaremos la función matrix cuyos argumentos son:
 
@@ -116,3 +117,26 @@ Observaciones: Filas.
   - ncol: número de columnas.
   - byrow: booleano para indicar si llenar la matriz por filas.
   - colSums es una función que por argumento recibe una matriz y te retorna la suma de los valores de sus columnas.
+- Las matrices se diferencian de los dataset/dataframes porque tienen el mismo tipo de dato.
+-Una matriz es, palabras mas palabras menos, una tabla o un arreglo de dos dimensiones.
+- Las matrices en R se crean con la función MATRIX, la cual tiene los siguientes parametros:
+
+  - Data: Se refiere obviamente a los datos con lo que se creará la matriz. En este ejemplo la profesora usa un nuevo vector que recoge los elementos de los dos vectores anteriores, acá les doy un ejemplo:
+  - Vector1<-c(1,2,3)
+  - Vector2<-c(4,5,6)
+  - c(vector1,vector) = 1,2,3,4,5,6
+- Se está mezclando los dos vectores anteriores en uno solo
+ - Nrow = Se refiere a la cantidad de filas, recuerden que las filas son las horizontales. Es importante tener en cuenta que la función cuenta la cantidad total de elementos de los datos y los divide entre la cantidad de filas que quieras, por lo que si la división no es exacta se repetirán los primeros elementos de los datos
+  - En este caso ella escribió para 2 filas, osea que siguiendo el ejemplo de arriba quedaría
+
+    - 1 2 3
+    - 4 5 6
+
+  - Si quisieramos dividirlo en 3 filas sería
+    - 1 2
+    - 3 4
+    - 5 6
+ - Por último está byrow, se refiere a si se quiere organizar por filas, es decir algo como:
+    - 1 2 3
+    - 4 5 6
+## Ejerciciosconmatrices
