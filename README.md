@@ -140,3 +140,8 @@ Observaciones: Filas.
     - 1 2 3
     - 4 5 6
 ## Ejerciciosconmatrices
+- rbind: función para añadir una fila.
+
+- Reto: agrega una columna a nuestra matriz para indicar el día Sabado.
+
+- Para seleccionar rápidamente un elemento de una matriz solamente debemos indicar entre corchetes el número de la fila y de la columna.
