@@ -19,7 +19,7 @@
 - [Primero calculos](#PrimerosCalculos)
 - [Primero calculos](#PrimerosCalculos)
 - [Primero calculos](#PrimerosCalculos)
-- [Primero calculos](#PrimerosCalculos)
+- [Graficos en R ](#TiposDeGraficos)
 
 
 ## Instalandonuestrasherramientas
@@ -145,3 +145,13 @@ Observaciones: Filas.
 - Reto: agrega una columna a nuestra matriz para indicar el día Sabado.
 
 - Para seleccionar rápidamente un elemento de una matriz solamente debemos indicar entre corchetes el número de la fila y de la columna.
+
+
+## TiposDeGraficos
+- Flexdashboard ( para hacer dashbord sencillos)
+- RGL ( graficos en 3d)
+- Plotly (graficos interactivos)
+- leaftlet (mapas)
+- RcolorBrewer (manejo y color avanzado)
+- Shiny (aplicaciones web)
+- https://www.youtube.com/watch?v=bYxjgO2dkXI
